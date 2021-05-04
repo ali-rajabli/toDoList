@@ -1,0 +1,27 @@
+.item {
+    margin: 5px 0;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+}
+
+.item span {
+    font-family: cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+.checkbox {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    box-shadow: none;
+}
+
+.checkbox:hover {
+    background: rgb(206, 58, 58);
+}
+
+.checkbox:hover i {}
